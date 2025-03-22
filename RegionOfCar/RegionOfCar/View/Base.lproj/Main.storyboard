@@ -32,14 +32,14 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="номер_региона_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="gs9-bY-dUc">
-                                <rect key="frame" x="58" y="223" width="259" height="86"/>
+                                <rect key="frame" x="58" y="222" width="259" height="86"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="86" id="a0K-wp-YYf"/>
                                     <constraint firstAttribute="width" constant="259" id="eKh-zA-fIc"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRn-yu-Gdi">
-                                <rect key="frame" x="58" y="223" width="259" height="86"/>
+                                <rect key="frame" x="58" y="222" width="259" height="86"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="259" id="889-gI-Ces"/>
                                     <constraint firstAttribute="height" constant="86" id="PK2-4u-7FS"/>
@@ -53,23 +53,25 @@
                                     <action selector="defineButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3D-En-YIv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vj-ac-wzJ">
-                                <rect key="frame" x="16" y="333" width="343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vj-ac-wzJ">
+                                <rect key="frame" x="16" y="332" width="343" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="SEQ-0Q-fzf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kAW-Uo-QQV">
                                 <rect key="frame" x="58" y="9" width="259" height="149"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="149" id="2s2-S7-oB2"/>
                                     <constraint firstAttribute="width" constant="259" id="cKz-ol-iba"/>
                                 </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="124"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -78,7 +80,7 @@
                             <constraint firstItem="1Nz-lY-SBJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2kt-8q-ucc"/>
                             <constraint firstItem="haW-Xx-vRw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6by-gT-bAw"/>
                             <constraint firstItem="1Vj-ac-wzJ" firstAttribute="top" secondItem="gs9-bY-dUc" secondAttribute="bottom" constant="24" id="7dN-RF-qQR"/>
-                            <constraint firstItem="gs9-bY-dUc" firstAttribute="top" secondItem="1Nz-lY-SBJ" secondAttribute="bottom" constant="-1" id="8ym-2N-XKN"/>
+                            <constraint firstItem="gs9-bY-dUc" firstAttribute="top" secondItem="1Nz-lY-SBJ" secondAttribute="bottom" constant="-2" id="8ym-2N-XKN"/>
                             <constraint firstItem="kAW-Uo-QQV" firstAttribute="centerY" secondItem="haW-Xx-vRw" secondAttribute="centerY" id="BfE-Z9-t9F"/>
                             <constraint firstItem="haW-Xx-vRw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="JoZ-u8-52W"/>
                             <constraint firstItem="kAW-Uo-QQV" firstAttribute="centerX" secondItem="haW-Xx-vRw" secondAttribute="centerX" id="O9t-RD-RaI"/>
