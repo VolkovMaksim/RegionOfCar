@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3768ADDE2D8F643500FD85B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768ADDD2D8F643500FD85B4 /* AppDelegate.swift */; };
 		3768ADE02D8F643500FD85B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768ADDF2D8F643500FD85B4 /* SceneDelegate.swift */; };
-		3768ADE22D8F643500FD85B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768ADE12D8F643500FD85B4 /* ViewController.swift */; };
 		3768ADE52D8F643500FD85B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768ADE32D8F643500FD85B4 /* Main.storyboard */; };
 		3768ADE72D8F643600FD85B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3768ADE62D8F643600FD85B4 /* Assets.xcassets */; };
 		3768ADEA2D8F643600FD85B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768ADE82D8F643600FD85B4 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		3768ADDA2D8F643500FD85B4 /* RegionOfCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegionOfCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3768ADDD2D8F643500FD85B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3768ADDF2D8F643500FD85B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3768ADE12D8F643500FD85B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3768ADE42D8F643500FD85B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3768ADE62D8F643600FD85B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3768ADE92D8F643600FD85B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +35,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		375906E02D8F67D1008F1B88 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3768ADEB2D8F643600FD85B4 /* Info.plist */,
+				3768ADE62D8F643600FD85B4 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		375906E12D8F67F0008F1B88 /* RegionOfCar */ = {
+			isa = PBXGroup;
+			children = (
+				375906E82D8F682D008F1B88 /* Model */,
+				375906E72D8F6828008F1B88 /* View */,
+				375906E62D8F6820008F1B88 /* Controller */,
+			);
+			path = RegionOfCar;
+			sourceTree = "<group>";
+		};
+		375906E22D8F67FD008F1B88 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				375906E52D8F6818008F1B88 /* Model */,
+				375906E42D8F6810008F1B88 /* View */,
+				375906E32D8F6807008F1B88 /* Controller */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		375906E32D8F6807008F1B88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3768ADDD2D8F643500FD85B4 /* AppDelegate.swift */,
+				3768ADDF2D8F643500FD85B4 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		375906E42D8F6810008F1B88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3768ADE82D8F643600FD85B4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		375906E52D8F6818008F1B88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		375906E62D8F6820008F1B88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		375906E72D8F6828008F1B88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3768ADE32D8F643500FD85B4 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		375906E82D8F682D008F1B88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3768ADD12D8F643500FD85B4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +129,9 @@
 		3768ADDC2D8F643500FD85B4 /* RegionOfCar */ = {
 			isa = PBXGroup;
 			children = (
-				3768ADDD2D8F643500FD85B4 /* AppDelegate.swift */,
-				3768ADDF2D8F643500FD85B4 /* SceneDelegate.swift */,
-				3768ADE12D8F643500FD85B4 /* ViewController.swift */,
-				3768ADE32D8F643500FD85B4 /* Main.storyboard */,
-				3768ADE62D8F643600FD85B4 /* Assets.xcassets */,
-				3768ADE82D8F643600FD85B4 /* LaunchScreen.storyboard */,
-				3768ADEB2D8F643600FD85B4 /* Info.plist */,
+				375906E22D8F67FD008F1B88 /* App */,
+				375906E12D8F67F0008F1B88 /* RegionOfCar */,
+				375906E02D8F67D1008F1B88 /* SupportingFiles */,
 			);
 			path = RegionOfCar;
 			sourceTree = "<group>";
@@ -138,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3768ADE22D8F643500FD85B4 /* ViewController.swift in Sources */,
 				3768ADDE2D8F643500FD85B4 /* AppDelegate.swift in Sources */,
 				3768ADE02D8F643500FD85B4 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,12 +357,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35F72NUF9N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RegionOfCar/Info.plist;
+				INFOPLIST_FILE = RegionOfCar/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Регионы";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +372,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.volkovmd.RegionOfCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +390,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35F72NUF9N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RegionOfCar/Info.plist;
+				INFOPLIST_FILE = RegionOfCar/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Регионы";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +405,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.volkovmd.RegionOfCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
