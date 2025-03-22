@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371E1C472D8F7304007C0A90 /* RegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371E1C462D8F7304007C0A90 /* RegionViewController.swift */; };
 		3768ADDE2D8F643500FD85B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768ADDD2D8F643500FD85B4 /* AppDelegate.swift */; };
 		3768ADE02D8F643500FD85B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768ADDF2D8F643500FD85B4 /* SceneDelegate.swift */; };
 		3768ADE52D8F643500FD85B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768ADE32D8F643500FD85B4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371E1C462D8F7304007C0A90 /* RegionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionViewController.swift; sourceTree = "<group>"; };
 		3768ADDA2D8F643500FD85B4 /* RegionOfCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegionOfCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3768ADDD2D8F643500FD85B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3768ADDF2D8F643500FD85B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		375906E62D8F6820008F1B88 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				371E1C462D8F7304007C0A90 /* RegionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371E1C472D8F7304007C0A90 /* RegionViewController.swift in Sources */,
 				3768ADDE2D8F643500FD85B4 /* AppDelegate.swift in Sources */,
 				3768ADE02D8F643500FD85B4 /* SceneDelegate.swift in Sources */,
 				37EDDB002D8F6A6500CD4D51 /* NumbersAndRegions.swift in Sources */,
